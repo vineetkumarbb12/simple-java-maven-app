@@ -1,0 +1,6 @@
+sudo apt update
+wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip
+sudo apt install -y unzip
+sudo unzip apache-maven-3.9.6-bin.zip
+cd apache-maven-3.9.6-bin
+sudo ln -s /home/ubuntu/apache-maven-3.9.6/bin/mvn  /usr/local/sbin
